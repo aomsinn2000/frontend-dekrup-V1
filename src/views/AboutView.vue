@@ -374,17 +374,11 @@ export default {
   margin-top: 20px;
 }
 
-@media only screen and (max-width:1620px) {
+
+
+@media only screen and (max-width:1300px) {
   .background-container {
-    width: 98%;
-
-  }
-
-}
-
-@media only screen and (max-width:1500px) {
-  .background-container {
-    width: 95%;
+    width: 90%;
 
   }
  
