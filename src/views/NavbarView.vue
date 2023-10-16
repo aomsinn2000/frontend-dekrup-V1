@@ -3,20 +3,21 @@
      <div class="grid color-navbar">
      <div class="col-2 md:col-1 lg:col-3">
          <span class=" border-circle mx-2 w-4rem h-3rem flex align-items-center justify-content-center mt-2"> 
-             <img
-                 src="@/assets/img/Deekrub.png" style="width: 100%; " />
+            <a href="/">  
+                <img
+                src="@/assets/img/Deekrub.png" style="width: 100%; " /></a>
          </span>
 
      </div>
-     <div class=" col-2 md:col-2 lg:col-6">
-         <Menubar :model="items"
-             class=" custom-menu border-round-3xl p-0 mt-2 w-auto hover:border-2 hover:border-purple-900 flex align-items-center justify-content-center bg-white">
+     <div class=" col-2 md:col-2 lg:col-6 flex justify-content-center">
+         <Menubar :model="items" 
+             class="width-menubar custom-menu border-round-3xl p-0 mt-2  hover:border-2 hover:border-purple-900 flex align-items-center justify-content-center bg-white">
          </Menubar>
      </div>
 
      <div class="col-8 md:col-9 lg:col-3 px-5 flex align-items-center justify-content-end ">
-      
-        <a href="#">
+        <!-- <a href="https://shop.dekrubshop.com/login" target="_blank"/> -->
+        <a   href="/loginView" >
             <Button class="btn-login ">
              <span class="txt-login">Login</span>
          </Button>
@@ -43,19 +44,17 @@ const items = ref([
      {
          label: "สินค้าของเรา",
          icon: 'pi pi-shopping-cart',
-         to: "/aboutview",
-     },
-     {
-         label: "สมัครสมาชิกกับเรา",
-         icon: 'pi pi-user-edit',
-        //  to: "/register",
-     },
+         to: "/aboutView",
+     }
 ]);
 </script>
 
 
 
 <style >
+.width-menubar{
+    width: 70%;
+}
 /* .grid{
     margin-right: 0px !important;
 } */
@@ -139,5 +138,9 @@ body{
     margin-top: -7px !important;
     padding-right: 15px !important;
 }
+.width-menubar{
+    width: 100%;
+}
+
 }
 </style>

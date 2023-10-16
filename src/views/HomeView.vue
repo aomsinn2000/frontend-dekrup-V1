@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- <NavbarView></NavbarView> -->
+        <NavbarView></NavbarView>
       <div >
         <img class="img-banner" src="../assets/img/banner2.jpg">
       </div>
@@ -39,12 +39,9 @@
     
     <script setup lang="js">
     import { ref, onMounted } from "vue";
-  //   import Menubar from "primevue/menubar";
-    // import Imageslide from "@/views/imageslide.vue";
     import FooterView from "@/views/FooterView.vue";
-    // import NavbarView from "@/views/NavbarView.vue";
     import ImageSlide from "@/views/ImageSlide.vue";
-  
+    import NavbarView from './NavbarView.vue'
     
     const itemMenu = ref([]);
     
@@ -190,6 +187,7 @@
     .txt-description{
         font-size: 25px;
         -webkit-text-stroke: 1px;
+        color: black;
         
     }
     

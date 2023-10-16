@@ -1,6 +1,8 @@
 <template>
-  <NavbarView></NavbarView>
+  <!-- <NavbarView></NavbarView> -->
   <RouterView/>
+  <ScrollTop></ScrollTop>
+
 </template>
 
 
@@ -8,7 +10,8 @@
 
 
 <script setup lang="js">
-import NavbarView from './views/NavbarView.vue'
+// import NavbarView from './views/NavbarView.vue'
+import ScrollTop from 'primevue/scrolltop';
 
 </script>
 
