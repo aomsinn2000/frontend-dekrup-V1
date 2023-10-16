@@ -1,7 +1,7 @@
 <!-- เผื่อได้ใช้ -->
 <template>
   <div>
-    <NavbarView></NavbarView>
+    <NavbarView/>
     <div class="background-container pt-5">
       <div class="grid">
         <div class="lg:col-4  col-12 justify-content-center">
@@ -25,7 +25,7 @@
 
 
       <div class="grid ">
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
           <div class="card-background">
             <div class="size-img">
               <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
@@ -41,23 +41,8 @@
             </div>
           </div>
         </div>
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
-          <div class="card-background">
-            <div class="size-img">
-              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
-            </div>
-            <div style="height: 150px;">
-              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
-              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
-              <p class="txt-price">ราคา <span>350</span> บาท</p>
-            </div>
-            <div class="flex grid-button" >
-             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
-              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
-            </div>
-          </div>
-        </div>
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
+       
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
           <div class="card-background">
             <div class="size-img">
               <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
@@ -74,86 +59,7 @@
           </div>
         </div>
 
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
-          <div class="card-background">
-            <div class="size-img">
-              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
-            </div>
-            <div style="height: 150px;">
-              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
-              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
-              <p class="txt-price">ราคา <span>350</span> บาท</p>
-            </div>
-            <div class="flex grid-button" >
-             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
-              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
-            </div>
-          </div>
-        </div><div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
-          <div class="card-background">
-            <div class="size-img">
-              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
-            </div>
-            <div style="height: 150px;">
-              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
-              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
-              <p class="txt-price">ราคา <span>350</span> บาท</p>
-            </div>
-            <div class="flex grid-button" >
-             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
-              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
-            </div>
-          </div>
-        </div>
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
-          <div class="card-background">
-            <div class="size-img">
-              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
-            </div>
-            <div style="height: 150px;">
-              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
-              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
-              <p class="txt-price">ราคา <span>350</span> บาท</p>
-            </div>
-            <div class="flex grid-button" >
-             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
-              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
-            </div>
-          </div>
-        </div>
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
-          <div class="card-background">
-            <div class="size-img">
-              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
-            </div>
-            <div style="height: 150px;">
-              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
-              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
-              <p class="txt-price">ราคา <span>350</span> บาท</p>
-            </div>
-            <div class="flex grid-button" >
-             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
-              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
-            </div>
-          </div>
-        </div>
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
-          <div class="card-background">
-            <div class="size-img">
-              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
-            </div>
-            <div style="height: 150px;">
-              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
-              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
-              <p class="txt-price">ราคา <span>350</span> บาท</p>
-            </div>
-            <div class="flex grid-button" >
-             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
-              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
-            </div>
-          </div>
-        </div>
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
           <div class="card-background">
             <div class="size-img">
               <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
@@ -170,7 +76,7 @@
           </div>
         </div>
 
-        <div class="col-6 md:col-4 lg:col-3 xl:col-2 ">
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
           <div class="card-background">
             <div class="size-img">
               <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
@@ -186,6 +92,56 @@
             </div>
           </div>
         </div>
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
+          <div class="card-background">
+            <div class="size-img">
+              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
+            </div>
+            <div style="height: 150px;">
+              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
+              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
+              <p class="txt-price">ราคา <span>350</span> บาท</p>
+            </div>
+            <div class="flex grid-button" >
+             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
+              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
+          <div class="card-background">
+            <div class="size-img">
+              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
+            </div>
+            <div style="height: 150px;">
+              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
+              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
+              <p class="txt-price">ราคา <span>350</span> บาท</p>
+            </div>
+            <div class="flex grid-button" >
+             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
+              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
+            </div>
+          </div>
+        </div>
+        <div class="col-6 md:col-4 lg:col-3 xl:col-2  ">
+          <div class="card-background">
+            <div class="size-img">
+              <img style="width: 100%;height: 100%;object-fit: contain;" alt="user header" src="../assets/img/green.png" />
+            </div>
+            <div style="height: 150px;">
+              <strong class="txt-head">{{ shortenText("ฮอร์โมนชนิดผงดำ โพดหลาย ตรามังกร", 25) }}</strong>
+              <div class="txt-category">หมวดหมู่ <span>เครื่องดื่ม</span></div>
+              <p class="txt-price">ราคา <span>350</span> บาท</p>
+            </div>
+            <div class="flex grid-button" >
+             <a href="http://shop.dekrubshop.com/login" class="btn-cart"> <Button class="p-button-warning text-white" style="border-radius: 10px;" icon="pi pi-shopping-cart" /></a>
+              <Button @click="visible = true" class="btn-description p-button-danger" label="รายละเอียด" />
+            </div>
+          </div>
+        </div>
+       
+
 
       </div>
 
@@ -418,6 +374,14 @@ export default {
   margin-top: 20px;
 }
 
+@media only screen and (max-width:1620px) {
+  .background-container {
+    width: 98%;
+
+  }
+
+}
+
 @media only screen and (max-width:1500px) {
   .background-container {
     width: 95%;
@@ -477,7 +441,11 @@ export default {
     margin-right: auto;
   }
 }
-
+@media only screen and (max-width:1380px) {
+  .btn-description {
+    font-size: 10px;
+  }
+}
 @media only screen and (max-width:380px) {
   .btn-description {
     padding: 5px;
