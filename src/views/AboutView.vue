@@ -374,19 +374,30 @@ export default {
   margin-top: 20px;
 }
 
-
-
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width:1620px) {
   .background-container {
     width: 90%;
 
   }
- 
+
+}
+
+@media only screen and (max-width:1450px) {
+  
+  .btn-description {
+    font-size: 12px;
+  }
+  .p-button.p-button-warning, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
+    width: 30px;
+}
 
 
 }
 
 @media only screen and (max-width:1200px) {
+  .p-button.p-button-warning, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
+    width: 45px;
+}
 
   .txt-productall {
     font-size: 35px;
@@ -435,11 +446,7 @@ export default {
     margin-right: auto;
   }
 }
-@media only screen and (max-width:1380px) {
-  .btn-description {
-    font-size: 10px;
-  }
-}
+
 @media only screen and (max-width:380px) {
   .btn-description {
     padding: 5px;
